@@ -1,5 +1,5 @@
 {
-  "name": "ts-transformer-json-schema",
+  "name": "ts-transformer-fastest-validator",
   "version": "0.6.12",
   "description": "A TypeScript custom transformer to obtain JSON schema from interface.",
   "main": "index.js",
@@ -10,16 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ipetrovic11/ts-transformer-json-schema"
+    "url": "git+https://github.com/dwoods/ts-transformer-fastest-validator"
   },
   "keywords": [
     "TypeScript"
   ],
-  "author": "ipetrovic11",
+  "author": "ipetrovic11, dwoods",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ipetrovic11/ts-transformer-json-schema/issues"
-  },
   "files": [
     "index.js",
     "index.ts",
@@ -28,7 +25,7 @@
     "predefined.d.ts",
     "predefined.js"
   ],
-  "homepage": "https://github.com/ipetrovic11/ts-transformer-json-schema",
+  "homepage": "https://github.com/dwoods/ts-transformer-fastest-validator",
   "devDependencies": {
     "@types/jest": "^24.0.16",
     "@types/node": "^12.0.0",
