@@ -1,0 +1,45 @@
+{
+  "name": "ts-transformer-json-schema",
+  "version": "0.6.12",
+  "description": "A TypeScript custom transformer to obtain JSON schema from interface.",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "ttsc",
+    "pretest": "ttsc",
+    "test": "ttsc --project tsconfig.test.json && jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ipetrovic11/ts-transformer-json-schema"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "ipetrovic11",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ipetrovic11/ts-transformer-json-schema/issues"
+  },
+  "files": [
+    "index.js",
+    "index.ts",
+    "transformer.js",
+    "transformer.ts",
+    "predefined.d.ts",
+    "predefined.js"
+  ],
+  "homepage": "https://github.com/ipetrovic11/ts-transformer-json-schema",
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "@types/node": "^12.0.0",
+    "fastest-validator": "^0.6.17",
+    "jest": "^24.8.0",
+    "jest-cli": "^24.8.0",
+    "tslint": "^5.18.0",
+    "ttypescript": "^1.5.7",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "typescript": ">=2.4.1"
+  }
+}
